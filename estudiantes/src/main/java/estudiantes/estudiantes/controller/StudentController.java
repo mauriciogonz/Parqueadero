@@ -26,4 +26,18 @@ public class StudentController {
     public String contacto() {
         return "contact";
     }
+
+@RequestMapping("/disponibilidad")
+    public String disponibilidad() {
+        return "disponibilidad";
+    }
+@RequestMapping("/entrada")
+    public String entrada() {
+        return "entrada";
+    }
+
+@RequestMapping("/salida")
+    public String salida() {
+        return "salida";
+    }
 }
