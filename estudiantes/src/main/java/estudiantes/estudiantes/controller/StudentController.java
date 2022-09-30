@@ -22,4 +22,8 @@ public class StudentController {
     public String pagos() {
         return "pagos";
     }
+@RequestMapping("/contacto")
+    public String contacto() {
+        return "contact";
+    }
 }
