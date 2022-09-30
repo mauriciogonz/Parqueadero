@@ -17,4 +17,9 @@ public class StudentController {
     public String nosotros() {
         return "nosotros";
     }
+
+@RequestMapping("/pagos")
+    public String pagos() {
+        return "pagos";
+    }
 }
