@@ -7,20 +7,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class StudentController {
 @RequestMapping("/")
     public String principal() {
-        return "create_student";
+        return "home";
 }
-@RequestMapping("/students")
-    public String estudiantes() {
-        return "students";
-    }
-
-@RequestMapping("/editar")
-    public String editar() {
-        return "edit_student";
-    }
-
 @RequestMapping("/login")
     public String login() {
         return "login";
+    }
+@RequestMapping("/nosotros")
+    public String nosotros() {
+        return "nosotros";
     }
 }
