@@ -18,4 +18,9 @@ public class StudentController {
     public String editar() {
         return "edit_student";
     }
+
+@RequestMapping("/login")
+    public String login() {
+        return "login";
+    }
 }
